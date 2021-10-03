@@ -26,11 +26,10 @@
 
 package caesarencrypt;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class CaesarEncrypt {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String usage = "CaesarEncrypt <text> <key>\n";
         usage += "Text restricted to alphabetical characters and\n";
         usage += "key must be in the range 1-25\n";
