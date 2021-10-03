@@ -1,8 +1,8 @@
-/*
+/**
  * Encrypts plaintext into a Caesar cipher
  * 
  * @author Gabriel Votaw
- * @since 2021-09-28
+ * @since 2021-10-03
  * 
  * Copyright (c) 2021 Gabriel Votaw
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -30,14 +30,14 @@ import java.util.Scanner;
 
 public class CaesarEncrypt {
     public static void main(String[] args) {
-        String usage = "CaesarEncrypt <text> <key>\n";
-        usage += "Text restricted to alphabetical characters and\n";
+        String usage = "encrypt <text> <key>\n";
+        usage += "text restricted to alphabetical characters and\n";
         usage += "key must be in the range 1-25\n";
         
         Scanner in = new Scanner(System.in);
         String[] tokens = in.nextLine().split(" ");
         
-        if (tokens.length != 3 || !tokens[0].equals("CaesarEncrypt")) {
+        if (tokens.length != 3 || !tokens[0].equals("encrypt")) {
             System.out.println(usage);
             System.exit(1);
         }
