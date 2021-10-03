@@ -5,6 +5,8 @@ Thus, there are only 25 possible keys. (A maps to B, C, ... , Z)<br />
 <br />
 This program was created to encrypt any plaintext into a Caesar cipher.<br />
 <br />
+Java and C++ versions available. <br />
+<br />
 # MIT License
 Copyright (c) 2021 Gabriel Votaw
 
